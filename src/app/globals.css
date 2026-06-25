@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #8cc63f;       /* The lime/chartreuse highlight */
+  --color-brand-dark: #242933;        /* Deep footer and primary text neutral */
+  --color-brand-gray-bg: #f0f4f5;     /* Light gray section strip background */
+  --color-brand-text-main: #1d2129;   /* Main crisp body text */
+  
+  /* Adds Nunito to Tailwind's internal font configuration mapping */
+  --font-sans: 'Nunito', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-gray-bg);
+    color: var(--color-brand-text-main);
+    font-family: var(--font-sans); /* Uses the theme variable to assign your global font layout */
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
