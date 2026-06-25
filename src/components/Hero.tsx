@@ -52,7 +52,7 @@ export default function Hero() {
             
             {/* 🎯 UPDATED: RESUME DOWNLOAD CTA */}
             <a 
-              href="/Rahul_Singh_Resume.pdf" 
+              href="/updatedresume2026.pdf" 
               download="Rahul_Singh_Resume.pdf"
               className="inline-flex items-center gap-2.5 bg-white/80 hover:bg-slate-100 border border-slate-300 text-brand-dark font-bold px-8 py-3.5 rounded-xl transition-all tracking-wide shadow-sm"
             >
